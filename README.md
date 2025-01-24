@@ -2,6 +2,9 @@
 So you want to integrate your mobile app with Microsoft's authentication service?
 ## Basic Assumptions and Requirements
 This plugin implements [Microsoft's MSAL plugin](https://docs.microsoft.com/en-us/azure/active-directory/develop/msal-overview) for Android and iOS. I'm assuming you're here because you've already read their documentation and understand how to configure Azure AD authentication for your organization and are simply looking for an existing Cordova wrapper to implement it on the mobile side.
+
+**Compatibility Note:** This plugin is compatible with Android SDK 35 and iOS 18.0+.
+
 ## How do I install it?
 You can install it just like any other Cordova plugin. However, if you're building for Android, you need to specify an optional install variable: a base64 sha1 hash of your keystore file. It can be obtained like this:
 <pre>
